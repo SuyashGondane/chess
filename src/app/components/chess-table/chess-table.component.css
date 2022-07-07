@@ -1,0 +1,24 @@
+.chess-table {
+  width: 480px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.piece-box {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.piece-box.white-box {
+  background-color: #e0e0e0;
+}
+
+.piece-box.black-box {
+  background-color: #616161;
+}
