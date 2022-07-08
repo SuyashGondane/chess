@@ -5,14 +5,18 @@
   flex-wrap: wrap;
 }
 
-.piece-box {
-  width: 60px;
+app-table-row {
+  width: 480px;
   height: 60px;
-  box-sizing: border-box;
-  position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+/*
+.black-box .piece-box-text {
+  color: #e0e0e0;
+}
+.white-box .piece-box-text {
+  color: #616161;
 }
 
 .piece-box.white-box {
@@ -21,4 +25,4 @@
 
 .piece-box.black-box {
   background-color: #616161;
-}
+} */

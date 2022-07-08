@@ -1,0 +1,18 @@
+.row-box {
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-number {
+  display: none;
+  position: absolute;
+  right: 2px;
+  bottom: 1px;
+  font-size: 12px;
+  opacity: 0.7;
+}
